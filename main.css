@@ -3,11 +3,21 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: rgb(87, 206, 245);
 }
 .div{
    
     width: 200px;
     height: 200px;
-    background-color: red;
+   
     border-radius: 50%;
+}
+.colorRed{
+    background-color: rgb(233, 95, 95);
+}
+.colorGreen{
+    background-color: rgb(88, 210, 88);
+}
+.colorYellow{
+    background-color: rgb(215, 237, 94);
 }
