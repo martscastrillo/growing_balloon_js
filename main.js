@@ -1,13 +1,11 @@
 "use strict";
 
  const balloon=document.querySelector(".js_balloon");
-
  const intro = document.getElementById('intro');
  let widthBalloon = 200;
   let heightBalloon =200;
 
   function changecolor() {
-  let color ='#FF0000';
   intro.style.width = `${widthBalloon+40}px`;
   intro.style.height = `${heightBalloon+40}px`;
     if(widthBalloon === 420 && heightBalloon===420){

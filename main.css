@@ -3,14 +3,16 @@ body{
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: rgb(87, 206, 245);
+    background-color: #6EE7FF;
 }
 .text{
+    background-color: #fff;
     text-transform: uppercase;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     letter-spacing: 10px;
-    padding-top: 80px;
+    margin-top: 80px;
+    
 }
 .flex{
     display: flex;
@@ -20,17 +22,16 @@ body{
 }
 
 .div{
-
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 .colorRed{
-    background-color: rgb(233, 95, 95);
+    background-color: #FF573D;
 }
 .colorGreen{
-    background-color: rgb(88, 210, 88);
+    background-color: #007D36;
 }
 .colorYellow{
-    background-color: rgb(215, 237, 94);
+    background-color: #fcff5b;
 }
