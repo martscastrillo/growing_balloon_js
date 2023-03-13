@@ -5,20 +5,19 @@ body{
     height: 100vh;
     background-color: #6EE7FF;
 }
-.text{
+.title{
     background-color: #fff;
     text-transform: uppercase;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     letter-spacing: 10px;
-    margin-top: 80px;
     
 }
 .flex{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 60%;
 }
 
 .div{
@@ -26,6 +25,8 @@ body{
     height: 200px;
     border-radius: 50%;
 }
+
+  
 .colorRed{
     background-color: #FF573D;
 }
