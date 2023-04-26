@@ -17,8 +17,6 @@ let heightBalloon =100;
        widthBalloon = widthBalloon +10;
        heightBalloon = heightBalloon +10;
     }
-console.log(heightBalloon );
-console.log(widthBalloon);
 
    if(balloon.classList.contains("colorRed")){
        balloon.classList.remove("colorRed");
