@@ -1,38 +1,42 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background-color: #6EE7FF;
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	background-color: #6ee7ff;
 }
-.title{
-    background-color: #fff;
-    text-transform: uppercase;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    letter-spacing: 10px;
-    
+.title {
+	background-color: #fff;
+	text-transform: uppercase;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 20px;
+	letter-spacing: 10px;
+	width: 300px;
+	text-align: center;
+	@media all and (min-width: 768px) {
+		font-size: 30px;
+		width: 700px;
+	}
 }
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60%;
+.flex {
+	display: flex;
+	align-items: center;
+
+	height: 60%;
 }
 
-.div{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.div {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
 
-  
-.colorRed{
-    background-color: #FF573D;
+.colorRed {
+	background-color: #ff573d;
 }
-.colorGreen{
-    background-color: #007D36;
+.colorGreen {
+	background-color: #007d36;
 }
-.colorYellow{
-    background-color: #fcff5b;
+.colorYellow {
+	background-color: #fcff5b;
 }

@@ -4,20 +4,21 @@
 
  const intro = document.getElementById('intro');
  
-let widthBalloon = 200;
-let heightBalloon =200;
+let widthBalloon = 100;
+let heightBalloon =100;
 
   function changecolor() {
   intro.style.width = `${widthBalloon+40}px`;
   intro.style.height = `${heightBalloon+40}px`;
-    if(widthBalloon === 420 && heightBalloon===420){
-       widthBalloon = 200;
-       heightBalloon = 200;
-    }else if(widthBalloon >=200 && heightBalloon>=200){
+    if(widthBalloon === 220 && heightBalloon===220){
+       widthBalloon = 100;
+       heightBalloon = 100;
+    }else if(widthBalloon >=100 && heightBalloon>=100){
        widthBalloon = widthBalloon +10;
        heightBalloon = heightBalloon +10;
     }
-
+console.log(heightBalloon );
+console.log(widthBalloon);
 
    if(balloon.classList.contains("colorRed")){
        balloon.classList.remove("colorRed");
